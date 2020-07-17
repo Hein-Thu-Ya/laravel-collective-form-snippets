@@ -1,0 +1,15 @@
+{
+    "SelectMonth Horizontal": {
+        "prefix": "bootselectmonthh",
+        "body": [
+            "<div class=\"form-group{{ \\$errors->has('${1:month}') ? ' has-error' : '' }}\">",
+                "{!! Form::label('${1:month}', '${2:Month}', ['class' => '${4:col-sm-3 control-label}']) !!}",
+                "<div class=\"${5:col-sm-9}\">",
+                    "{!! Form::selectMonth('${1:month}', ['class' => 'form-control'${3:, 'required' => 'required'}]) !!}",
+                    "<small class=\"text-danger\">{{ \\$errors->first('${1:month}') }}</small>",
+                "</div>",
+            "</div>"
+        ],
+        "description": "SelectMonth Horizontal"
+    }
+}

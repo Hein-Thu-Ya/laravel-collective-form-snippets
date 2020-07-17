@@ -1,0 +1,15 @@
+{
+    "SelectRange Horizontal": {
+        "prefix": "bootselectrangeh",
+        "body": [
+            "<div class=\"form-group{{ \\$errors->has('${1:range}') ? ' has-error' : '' }}\">",
+                "{!! Form::label('${1:range}', '${2:Range}', ['class' => '${6:col-sm-3 control-label}']) !!}",
+                "<div class=\"${7:col-sm-9}\">",
+                    "{!! Form::selectRange('${1:range}', ${3:0}, ${4:10}, ['class' => 'form-control'${5:, 'required' => 'required'}]) !!}",
+                    "<small class=\"text-danger\">{{ \\$errors->first('${1:range}') }}</small>",
+                "</div>",
+            "</div>"
+        ],
+        "description": "SelectRange Horizontal"
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "name": "laravelcollective",
+    "displayName": "Laravel Collective Form Snippets",
+    "description": "Laravel Collective HTML Form Snippets for Visual Studio Code",
+    "version": "1.0.0",
+    "publisher": "HeinThuYa",
+    "author": {
+        "name": "Hein Thu Ya"
+    },
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hein-Thu-Ya/laravel-collective-form-snippets"
+    },
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "blade",
+                "aliases": [
+                    "Blade",
+                    "blade"
+                ],
+                "extensions": [
+                    ".blade.php"
+                ],
+                "configuration": "./blade.configuration.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "blade",
+                "path": "./snippets/form.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/formmodel.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/text.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/textarea.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/button.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/checkbox.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/date.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/email.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/file.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/hidden.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/number.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/password.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/radio.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/select.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selectmonth.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selectyear.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selectrange.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/checkboxhorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/datehorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/emailhorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/filehorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/numberhorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/passwordhorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/radiohorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selecthorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selectmonthhorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selectyearhorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/selectrangehorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/texthorizontal.snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/textareahorizontal.snippets.json"
+            }
+        ],
+        "configuration": {
+            "title": "Blade Configuration",
+            "properties": {
+                "blade.format.enable": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enable format blade file"
+                }
+            }
+        }
+    }
+}

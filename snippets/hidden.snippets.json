@@ -1,0 +1,9 @@
+{
+    "Hidden": {
+        "prefix": "boothidden",
+        "body": [
+            "{!! Form::hidden('${1:inputname}', ${2:'value'}) !!}"
+        ],
+        "description": "Hidden"
+    }
+}

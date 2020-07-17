@@ -1,0 +1,15 @@
+{
+    "Textarea Horizontal": {
+        "prefix": "boottextareah",
+        "body": [
+            "<div class=\"form-group{{ \\$errors->has('${1:inputname}') ? ' has-error' : '' }}\">",
+                "{!! Form::label('${1:inputname}', '${2:Input}', ['class' => '${5:col-sm-3 control-label}']) !!}",
+                "<div class=\"${6:col-sm-9}\">",
+                    "{!! Form::textarea('${1:inputname}',${3: null,} ['class' => 'form-control'${4:, 'required' => 'required'}]) !!}",
+                    "<small class=\"text-danger\">{{ \\$errors->first('${1:inputname}') }}</small>",
+                "</div>",
+            "</div>"
+        ],
+        "description": "Textarea Horizontal"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Laravel Collective Form Model": {
+        "prefix": "bootformmodel",
+        "body": [
+            "{!! Form::model(\\$${1:model}, ['route' => ['${1:model}s.update', \\$${1:model}s->id}], 'method' => 'PUT'${2:, 'class' => 'form-horizontal'}]) !!}",
+                "${0:boottext}",
+                "<div class=\"btn-group pull-right\">",
+                    "${3:{!! Form::reset(\"Reset\", ['class' => 'btn btn-warning']) !!}}",
+                    "{!! Form::submit(\"${4:Add}\", ['class' => 'btn btn-${4:success}']) !!}",
+                "</div>",
+            "{!! Form::close() !!}"
+        ],
+        "description": "Form Model"
+    }
+}

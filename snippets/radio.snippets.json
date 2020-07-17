@@ -1,0 +1,14 @@
+{
+    "Radio": {
+        "prefix": "bootradio",
+        "body": [
+            "<div class=\"radio{{ \\$errors->has('${1:radio_group_name}') ? ' has-error' : '' }}\">",
+                "<label for=\"${1:radio_group_name}\">",
+                    "{!! Form::radio('${1:radio_group_name}',${2: null},${3:  null}, ['id' => '${4:radio_id}']) !!} ${5:Checkbox label}${0}",
+                "</label>",
+                "<small class=\"text-danger\">{{ \\$errors->first('${1:radio_group_name}') }}</small>",
+            "</div>"
+        ],
+        "description": "Radio"
+    }
+}
